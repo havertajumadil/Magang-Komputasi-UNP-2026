@@ -1,0 +1,36 @@
+# === Quantum ESPRESSO ===
+*.wfc*
+*.mix*
+*.igk*
+*.save/
+CRASH
+*.EXIT
+
+# === BoltzTraP2 / berkas transport besar ===
+*.energy
+*.engre
+
+# === LaTeX (laporan_magang/) ===
+laporan_magang/*.aux
+laporan_magang/*.log
+laporan_magang/*.out
+laporan_magang/*.toc
+laporan_magang/*.bbl
+laporan_magang/*.blg
+laporan_magang/*.synctex.gz
+laporan_magang/*.fls
+laporan_magang/*.fdb_latexmk
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
